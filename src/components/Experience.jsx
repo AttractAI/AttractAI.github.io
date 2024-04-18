@@ -50,7 +50,8 @@ export const Experience = () => {
           curvePoints[1].y,
           curvePoints[1].z
         ),
-        subtitle: `Turn Your Vision into Visibility`,
+        title: `Who are we?`,
+        subtitle: `We are AttractAI, a dynamic startup from Georgia Tech, committed to transforming how small businesses engage with social media marketing through AI.`,
       },
       {
         cameraRailDist: 1.5,
@@ -59,7 +60,8 @@ export const Experience = () => {
           curvePoints[2].y,
           curvePoints[2].z
         ),
-        subtitle: `Effortless Marketing, Endless Reach`,
+        title: `Problem Statement`,
+        subtitle: `Small business owners often struggle with convoluted, tedious, time consuming social media organic marketing tasks when it comes to their advertising campaigns.        `,
       },
       {
         cameraRailDist: -1,
@@ -68,7 +70,8 @@ export const Experience = () => {
           curvePoints[3].y,
           curvePoints[3].z
         ),
-        subtitle: `Personalize, Automate, Dominate`,
+        title: `Solution`,
+        subtitle: `AttractAI simplifies and enhances social media marketing: Automating Tedious Tasks, Personalization to unique business branding, and Intelligent Strategy Generation.`,
       },
       {
         cameraRailDist: 1.5,
@@ -77,7 +80,8 @@ export const Experience = () => {
           curvePoints[4].y,
           curvePoints[4].z - 12
         ),
-        subtitle: `AI That Adapts to Your Audience`,
+        title: `Our Vision`,
+        subtitle: `We'll make sure to automatically generate and deploy consistent and engaging content as seamlessly as possible to any workflow such that organic social media marketing becomes a breeze not just another homework task.`,
       },
     ];
   }, []);

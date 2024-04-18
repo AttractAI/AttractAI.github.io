@@ -20,7 +20,7 @@ export const Overlay = () => {
               <div className="spinner__image" />
             </div> */}
           </h1>
-          <p className="intro__scroll">Scroll to learn more about Magical Advertising</p>
+          <p className="intro__scroll">👇Scroll down to learn about AttractAI👇</p>
           <button
             className="explore"
             onClick={() => {
@@ -31,8 +31,16 @@ export const Overlay = () => {
           </button>
         </div>
       )}
-      <div className={`outro ${end ? "outro--appear" : ""}`}>
-        <p className="outro__text">Embark on an magical journey with AttractAI</p>
+      <div className={`outro ${end ? "outro--appear" : ""}`} style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+        <p className="outro__text">Embark on an magical journey with AttractAI!</p>
+        <button
+          className="explore"
+          onClick={() => {
+            window.location.href = 'https://forms.gle/CuetCdKbnMyYotFF9';
+          }}
+        >
+          Join Waitlist
+      </button>
       </div>
     </div>
   );

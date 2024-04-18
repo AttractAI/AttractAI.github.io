@@ -30,6 +30,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
+  z-index: 10;
 }
 
 .overlay--disable {
@@ -116,6 +117,7 @@ body {
 }
 
 .overlay--scrolled .intro__scroll {
+  pointer-events: none;
   animation: fadeOut 1s ease-in-out forwards;
 }
 
@@ -132,11 +134,12 @@ body {
   margin-top: 320px;
   display: inline-block;
   position: relative;
-  z-index: 1;
+  z-index: 30;
   overflow: hidden;
   transition: 0.42s ease-in-out;
   animation: fadeIn 2.4s ease-in-out 2s forwards;
   opacity: 0;
+  
 }
 
 .explore:hover {
@@ -177,10 +180,13 @@ body {
   justify-content: center;
   opacity: 0;
   transition: opacity 4s ease-in-out;
+  z-index: 20;
 }
+
 
 .outro--appear {
   opacity: 1;
+  pointer-events: auto;
 }
 
 .outro__text {
