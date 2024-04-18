@@ -1,2 +1,2 @@
 # AttractAI.github.io
-AttractAi's Landing Page
+AttractAI's Landing Page
